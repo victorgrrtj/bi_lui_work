@@ -33,7 +33,7 @@ A base é um website que contém dados sobre aluguel e venda de imóveis. O obje
 
 ### 2. Modelagem
 
-A extração dos dados foi realizada utilizando as bibliotecas BeautifulSoup e Requests. Para tal, criamos uma lista contendo as páginas das quais os dados seriam extraídos e utilizamos as tags de cada imóvel para extrair o título, o valor total, valor por m2, área, descrição, tipo de imóvel, objetivo (aluguel ou venda), quantidade e tipo de cômodos. Utilizamos as bibliotecas Time e Random para definir uma pausa entre as requisições do site para não sobrecarregá-lo e/ou termos nosso acesso bloqueado. Após a extração, criamos um dicionário contendo os dados de cada imóvel publicado no site e geramos para um arquivo json. Para mostrar o resultado, passamos os dados para um dataframe.
+A extração dos dados foi realizada utilizando as bibliotecas BeautifulSoup e Requests. Para tal, criamos uma lista contendo as páginas das quais os dados seriam extraídos e utilizamos as tags de cada imóvel para extrair o título, o valor total, valor por m2, área, descrição, tipo de imóvel, objetivo (aluguel ou venda), quantidade e tipo de cômodos. Utilizamos as bibliotecas Time e Random para definir uma pausa entre as requisições do site para não sobrecarregá-lo e/ou termos nosso acesso bloqueado. Após a extração, criamos um dicionário contendo os dados de cada imóvel publicado no site e geramos para um arquivo json. Para mostrar o resultado, passamos os dados para um dataframe e realizamos uma filtragem e uma ordenação.
 
 ### 3. Resultados
 
